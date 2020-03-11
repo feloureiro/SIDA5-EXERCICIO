@@ -1,0 +1,4 @@
+rootProject.name = 'NoRest'
+include 'main'
+findProject(':main')?.name = 'NoRest'
+
